@@ -24,6 +24,9 @@
 .fr {
     float: right;
 }
+.style_red {
+    color: red;
+}
 .shortcut li {
     float: left;
    
@@ -86,3 +89,12 @@
     font-size: 16px;
     color: #fff;
 }
+.hotwords {
+    position: absolute;
+    left: 346px;
+    top: 69px;
+}
+.hotwords a {
+    margin: 0 10px;
+    font-size: 12px;
+   
