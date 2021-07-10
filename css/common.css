@@ -2,3 +2,39 @@
     width: 1200px;
     margin: 0 auto;
 }
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 快捷导航栏模块 */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.shortcut li {
+    float: left;
+   
+}
+.shortcut ul {
+    line-height: 31px;
+}
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+
+    background-color: #666666; 
+    margin: 9px 15px 0;  
+}
