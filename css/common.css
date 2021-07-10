@@ -42,3 +42,24 @@
     font-family: 'icomoon';
     margin-left: 5px;
 }
+/* header模块开始 */
+.header {
+    position: relative;
+    height: 105px;
+    background-color: pink;
+   }
+   .logo {
+       position: absolute;
+       top: 25px;
+       width: 175px;
+       height: 56px;
+       top: 25px;
+       background-color: skyblue;
+   }
+.header .logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat;
+}
