@@ -49,7 +49,7 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
+    /* background-color: pink; */
    }
    .logo {
        position: absolute;
@@ -57,7 +57,7 @@
        width: 175px;
        height: 56px;
        top: 25px;
-       background-color: skyblue;
+       /* background-color: skyblue; */
    }
 .header .logo a {
     display: block;
@@ -97,4 +97,38 @@
 .hotwords a {
     margin: 0 10px;
     font-size: 12px;
-   
+}
+/* 购物车模块 */
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 35px;
+    text-align: center;
+}
+.shopcar::before {
+    margin-right: 5px;
+    font-family: 'icomoon';
+    content: '\e93a';
+    color: #b1191a;
+}
+.shopcar::after {
+    margin-left: 10px;
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #b1191a;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
