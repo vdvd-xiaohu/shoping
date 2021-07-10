@@ -63,3 +63,12 @@
     font-size: 0;
     background: url(../images/logo.png) no-repeat;
 }
+    /* search模块 */
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid b1191a;
+}
