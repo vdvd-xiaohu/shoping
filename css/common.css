@@ -186,3 +186,13 @@
 .dropdown .dd ul li:hover a {
     color: #c81623;
 }
+.navitems ul li {
+    float: left;
+}
+.navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 25px;
+}
