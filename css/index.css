@@ -1,0 +1,80 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: skyblue; */
+
+}
+.news {
+    height: 166px;
+    /* background-color: pink; */
+    border: 1px solid #e4e4e4;
+}
+.new-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+.new-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.new-bd {
+    padding: 5px 15px 0;
+}
+.new-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.new-hd .more {
+    float: right;
+}
+.new-hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.lifeservice {
+    height: 209px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    height: 28px;
+    width: 24px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.bargain {
+    margin-top: 5px;
+}
