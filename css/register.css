@@ -100,3 +100,13 @@ header {
     line-height: 34px;
     text-align: center;
 }
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.links {
+    margin-bottom: 15px;
+}
+.copyright {
+    line-height: 20px;
+}
