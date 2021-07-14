@@ -36,3 +36,29 @@
     content: '\e91e';
     font-family: 'icomoon';
 }
+.nav {
+    overflow: hidden;
+}
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+}
+
